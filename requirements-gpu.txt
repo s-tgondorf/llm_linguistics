@@ -1,0 +1,3 @@
+# Install ON TOP of requirements.txt, on a Linux machine with an NVIDIA GPU (cluster).
+-r requirements.txt
+vllm>=0.6

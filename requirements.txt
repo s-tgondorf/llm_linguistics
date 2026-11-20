@@ -1,0 +1,34 @@
+# Core (works on CPU-only machines)
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14.0
+scipy>=1.11
+tqdm>=4.66
+pyyaml>=6.0
+omegaconf>=2.3
+
+# Models
+torch>=2.2
+transformers>=4.45        # OLMo / OLMo-2 support; use `revision=` for checkpoint branches
+accelerate>=0.30
+huggingface_hub>=0.23
+sentencepiece>=0.1.99
+safetensors>=0.4
+
+# Parsing
+benepar>=0.2.0            # needs spacy + nltk; models via benepar.download("benepar_en3")
+spacy>=3.5
+nltk>=3.8
+protobuf>=3.20
+torch-struct>=0.5
+
+# Analysis / plotting
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.3
+networkx>=3.2
+jupyterlab>=4.0
+
+# Dev
+pytest>=8.0
+ruff>=0.4

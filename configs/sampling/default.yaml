@@ -1,0 +1,8 @@
+num_samples: 1           # samples PER PROMPT
+max_new_tokens: 40       # hard cap on generated tokens per sample
+temperature: 1.0
+top_p: 1.0
+top_k: -1
+batch_size: 32          # HF backend batch size; vLLM batches internally
+prompt_file: data/prompts/prompts.txt   # one prompt per line; empty line = unconditional (BOS only)
+print_samples: 20       # how many samples to echo to the terminal

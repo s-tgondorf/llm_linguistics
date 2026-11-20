@@ -1,0 +1,4 @@
+benepar_model: benepar_en3
+spacy_model: en_core_web_sm
+batch_size: 64
+split_sentences: true

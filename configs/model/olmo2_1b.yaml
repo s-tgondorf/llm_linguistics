@@ -1,0 +1,5 @@
+name: olmo2_1b
+hf_id: allenai/OLMo-2-0425-1B
+revision: main          # any HF branch/tag, e.g. a training checkpoint branch
+dtype: auto             # float32 on CPU, bfloat16 on GPU when "auto"
+trust_remote_code: false

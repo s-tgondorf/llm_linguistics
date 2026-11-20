@@ -1,0 +1,14 @@
+defaults:
+  - model: olmo2_1b
+  - sampling: default
+  - parser: benepar_en3
+  - _self_
+
+backend: auto          # auto | hf | vllm   (auto = vllm if CUDA + vllm installed, else hf)
+device: auto           # auto | cpu | cuda
+seed: 0
+run_name: ${model.name}__${model.revision}
+paths:
+  samples: data/samples/${run_name}.jsonl
+  parses: data/parses/${run_name}.jsonl
+  results: results/${run_name}
