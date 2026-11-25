@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=treesample
-#SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 #SBATCH --time=00:05:00
