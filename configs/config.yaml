@@ -4,6 +4,8 @@ defaults:
   - parser: benepar_en3
   - _self_
 
+compute: local
+
 backend: auto          # auto | hf | vllm   (auto = vllm if CUDA + vllm installed, else hf)
 device: auto           # auto | cpu | cuda
 seed: 0
